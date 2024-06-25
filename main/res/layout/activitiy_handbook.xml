@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/backButton"
+        android:layout_width="40dp"
+        android:layout_height="33dp"
+        android:layout_marginBottom="18dp"
+        android:layout_marginRight="170dp"
+        android:background="@drawable/back"
+        android:onClick="back" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="410dp"
+        android:src="@drawable/avisualimage"
+        android:layout_centerInParent="true"
+        android:background="@drawable/button_border"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        >
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/img"
+            android:layout_marginRight="20dp">
+        </ImageView>
+
+
+        <TextView
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:text="@string/instruction"
+        android:textSize="14dp"
+        android:textStyle="bold"
+        android:fontFamily="@font/gungsuh"
+
+        ></TextView>
+
+    </LinearLayout>
+
+</LinearLayout>

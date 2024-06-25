@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@android:color/transparent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_centerInParent="true"
+        android:weightSum="7"
+        android:background="@android:color/transparent">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/buttonToMainActivity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="8dp"
+            android:background="@drawable/rounded_button"
+            android:fontFamily="@font/gungsuh"
+            android:text="자음 연습"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:singleLine="true"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/buttonToMainActivity2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="8dp"
+            android:background="@drawable/rounded_button"
+            android:fontFamily="@font/gungsuh"
+            android:text="모음 연습"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:singleLine="true"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp" />
+    </LinearLayout>
+
+</RelativeLayout>

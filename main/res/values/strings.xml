@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">손글씨 교정</string>
+        <string-array name="spinner_items">
+            <item>ㄱ</item>
+            <item>ㄴ</item>
+            <item>ㄷ</item>
+            <item>ㄹ</item>
+            <item>ㅁ</item>
+            <item>ㅂ</item>
+            <item>ㅅ</item>
+            <item>ㅇ</item>
+            <item>ㅈ</item>
+            <item>ㅊ</item>
+            <item>ㅋ</item>
+            <item>ㅌ</item>
+            <item>ㅍ</item>
+            <item>ㅎ</item>
+            <item>ㄲ</item>
+            <item>ㄸ</item>
+            <item>ㅃ</item>
+            <item>ㅆ</item>
+            <item>ㅉ</item>
+        </string-array>
+
+    <string-array name="spinner_items2">
+        <item>ㅏ</item>
+        <item>ㅑ</item>
+        <item>ㅓ</item>
+        <item>ㅕ</item>
+        <item>ㅗ</item>
+        <item>ㅛ</item>
+        <item>ㅜ</item>
+        <item>ㅠ</item>
+        <item>ㅡ</item>
+        <item>ㅣ</item>
+        <item>ㅐ</item>
+        <item>ㅒ</item>
+        <item>ㅔ</item>
+        <item>ㅖ</item>
+        <item>ㅘ</item>
+        <item>ㅙ</item>
+        <item>ㅚ</item>
+        <item>ㅝ</item>
+        <item>ㅞ</item>
+        <item>ㅟ</item>
+        <item>ㅢ</item>
+    </string-array>
+    
+    <string name="instruction">
+이 앱은 자음과 모음 연습을 위해 시작하기 버튼을 누른 후 글자 예제를 따라 화면에 쓰고, 정확도 확인 버튼으로 정확도를 확인할 수 있습니다. 사용자는 실수한 부분을 지우기 버튼으로 수정하고, 스크롤바로 연습하고 싶은 자음 또는 모음을 선택할 수 있습니다.    </string>
+</resources>
+
