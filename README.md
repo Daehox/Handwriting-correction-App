@@ -12,4 +12,4 @@
 - 
 이 손글씨 교정 앱을 통해, 사용자는 보다 정확하고 아름다운 글씨를 쓸 수 있게 되어 의사소통의 질을 향상시키고, 감성을 더욱 풍부하게 표현할 수 있습니다.
 
- <img src="https://github.com/Daehox/software-design/assets/173144919/00cf8285-cdec-4c16-8a52-fe8ff07b6905" width="300" height="600">
+<img src= "https://github.com/Daehox/Handwriting-correction-App/assets/173144919/8bec167a-262e-42ed-ad69-a37e76e7afc3" width="300" height="600">
